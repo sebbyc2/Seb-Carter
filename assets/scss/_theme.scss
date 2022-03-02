@@ -56,19 +56,18 @@ a {
 
 .cv__button {
     height: 60px;
-    width: 130px;
-    background-color: $blue-accent;
-    border: 8px solid $pink-accent;
+    width: 110px;
+    background: linear-gradient(45deg, #F7C6D899, #bbd8ff99);
     display: flex;
     align-items: center;
     h3 {
         margin: 0 auto;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 .navbar{
     margin: 100px 0;
-    width: auto;
+    width: 20%;
     ul{
         display: flex;
         flex-direction: column;
@@ -86,6 +85,7 @@ a {
 
 .navbar--main{
     margin-top: 200px;
+    width: auto;
     ul {
         flex-direction: row;
         justify-content: space-around;
@@ -96,5 +96,21 @@ a {
         
     }
     
+}
+.main{
+    height: 100%;
+}
+//#F7C6D8
+//#bbd8ff
+.info-block {
+    text-shadow: 0 0 5px #00000050;
+    
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    line-height: 2rem;
+    max-width: 600px;
+    background: linear-gradient(45deg, #F7C6D899, #bbd8ff99);
+    padding: 20px;
+    border-radius: 3px;
 }
 
