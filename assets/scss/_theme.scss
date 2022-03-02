@@ -27,7 +27,7 @@ a {
     background-image: url("../images/colorgradient-background@05x.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     display: flex;
 }
 
