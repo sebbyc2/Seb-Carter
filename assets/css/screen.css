@@ -322,6 +322,36 @@ a:hover {
   letter-spacing: 1px;
 }
 
+.image-block {
+  height: 70%;
+  width: 40%;
+  background: linear-gradient(45deg, #F7C6D899, #bbd8ff99);
+  padding: 20px;
+  border-radius: 5px;
+  text-shadow: 0 0 5px #00000050;
+}
+
+.image-block .website {
+  width: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.image-block h4 {
+  margin-top: 10px;
+  font-size: larger;
+  letter-spacing: 1px;
+}
+
+.image-block p {
+  margin-top: 10px;
+  letter-spacing: 0.05em;
+}
+
+.image-block__image-wrapper {
+  margin: 0 auto;
+}
+
 @media (max-width: 880px) {
   .info-block {
     font-size: 1em;
