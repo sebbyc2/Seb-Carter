@@ -316,4 +316,55 @@ a:hover {
   padding: 20px;
   border-radius: 3px;
 }
+
+@media (max-width: 880px) {
+  .info-block {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    display: block;
+    padding-top: 10px;
+  }
+  .intro__title {
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 20px;
+  }
+  .intro__title:after {
+    background-color: #c0e5fd;
+    height: 2px;
+    width: 50px;
+  }
+  .intro__desc {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 150%;
+    width: 100%;
+  }
+  .cv__button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .navbar {
+    margin: 50px 0;
+    margin-top: 10px;
+  }
+  .navbar--main {
+    margin-top: 90px;
+  }
+  .navbar--main ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar--main li {
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+}
 /*# sourceMappingURL=screen.css.map */
