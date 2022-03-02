@@ -112,6 +112,10 @@ a {
     background: linear-gradient(45deg, #F7C6D899, #bbd8ff99);
     padding: 20px;
     border-radius: 3px;
+    a {
+        text-transform: unset;
+        letter-spacing: 1px;
+    }
 }
 @media (max-width:880px){
     .info-block{

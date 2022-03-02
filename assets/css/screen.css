@@ -317,6 +317,11 @@ a:hover {
   border-radius: 3px;
 }
 
+.info-block a {
+  text-transform: unset;
+  letter-spacing: 1px;
+}
+
 @media (max-width: 880px) {
   .info-block {
     font-size: 1em;
