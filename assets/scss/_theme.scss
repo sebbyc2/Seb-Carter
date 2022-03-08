@@ -99,6 +99,7 @@ a {
 }
 .main{
     height: 100%;
+    display: flex;
 }
 
 //#F7C6D8
@@ -120,16 +121,22 @@ a {
 }
 
 .image-block{
+    
     height: 70%;
     width: 40%;
     background: linear-gradient(45deg, #F7C6D899, #bbd8ff99);;
     padding: 20px;
     border-radius: 5px;
+    margin: 10px;
     text-shadow: 0 0 5px #00000050;
     .website {
         width: 100%;
         border-radius: 8px;
         margin: 0 auto;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     h4{
         margin-top: 10px;

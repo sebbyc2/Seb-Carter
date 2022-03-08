@@ -304,6 +304,9 @@ a:hover {
 
 .main {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .info-block {
@@ -328,6 +331,7 @@ a:hover {
   background: linear-gradient(45deg, #F7C6D899, #bbd8ff99);
   padding: 20px;
   border-radius: 5px;
+  margin: 10px;
   text-shadow: 0 0 5px #00000050;
 }
 
@@ -335,6 +339,13 @@ a:hover {
   width: 100%;
   border-radius: 8px;
   margin: 0 auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.image-block .website:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .image-block h4 {
